@@ -6,6 +6,9 @@ TagManager:
   tags:
   - TargetCube
   - MainCube
+  - WrongCube
+  - Enemy
+  - Cubes
   layers:
   - Default
   - TransparentFX
