@@ -1,0 +1,496 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 7930 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ALEYNA/Desktop/RotatingCarPark/WarOfLife
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51746
+Successfully changed project path to: C:/Users/ALEYNA/Desktop/RotatingCarPark/WarOfLife
+C:/Users/ALEYNA/Desktop/RotatingCarPark/WarOfLife
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30220] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 1586676733 [EditorId] 1586676733 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-6UIVN689) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30220] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 1586676733 [EditorId] 1586676733 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-6UIVN689) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 192.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ALEYNA/Desktop/RotatingCarPark/WarOfLife/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a5)
+    Vendor:   NVIDIA
+    VRAM:     3991 MB
+    Driver:   31.0.15.1720
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.020739 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 725 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 67.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.599 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1600ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1308ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (1052ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (844ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.021196 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ALEYNA\Desktop\RotatingCarPark\WarOfLife\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ALEYNA\Desktop\RotatingCarPark\WarOfLife\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.395 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4395ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (4081ms)
+			LoadAssemblies (262ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (3481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (3318ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3510.
+Memory consumption went from 107.7 MB to 107.6 MB.
+Total: 9.736800 ms (FindLiveObjects: 0.440600 ms CreateObjectMapping: 0.153500 ms MarkObjects: 8.184200 ms  DeleteObjects: 0.955900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105342.130042 seconds.
+  path: Assets/Clean Vector Icons/T_1_eye_.png
+  artifactKey: Guid(5c27fc79dd2011c4ab50f507f7cfb7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_1_eye_.png using Guid(5c27fc79dd2011c4ab50f507f7cfb7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d4a36accbb3c9c800e2179b89acd33') in 0.630842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Clean Vector Icons/T_2_eye_light_.png
+  artifactKey: Guid(0d6fe719ca1a6304b86fd5a8d517fa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_2_eye_light_.png using Guid(0d6fe719ca1a6304b86fd5a8d517fa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0daeb612d0278645cbddd3676eb119bf') in 0.035277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Clean Vector Icons/T_2_column_cross_.png
+  artifactKey: Guid(11e3d102a51b3e1409ff67d202690d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_2_column_cross_.png using Guid(11e3d102a51b3e1409ff67d202690d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568213b995f0d51fe184101da7e07e8d') in 0.039223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Clean Vector Icons/T_1_scroll_.png
+  artifactKey: Guid(1a7d8d92597c14148ba14377ca88b60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_1_scroll_.png using Guid(1a7d8d92597c14148ba14377ca88b60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb88322185699e91bcf62f039b11776') in 0.067549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Clean Vector Icons/T_1_cursor_al.png
+  artifactKey: Guid(5988a2020badc834c96521b52b6a08f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_1_cursor_al.png using Guid(5988a2020badc834c96521b52b6a08f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b28ebbf477c126ecc01e47ed8e5220') in 0.042813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Clean Vector Icons/T_2_coin_.png
+  artifactKey: Guid(be5129279b1dfca4ab4fa9ddc1c574f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_2_coin_.png using Guid(be5129279b1dfca4ab4fa9ddc1c574f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2749ff711173f535cd5954e68479cbde') in 0.077203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Clean Vector Icons/T_1_letter_.png
+  artifactKey: Guid(8192f26646a0a92499a7503ccacae72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_1_letter_.png using Guid(8192f26646a0a92499a7503ccacae72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2d51f6aff9734a25ddda492de12862') in 0.132587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Clean Vector Icons/T_2_arrow_empty_down_.png
+  artifactKey: Guid(85a96536cdeba7e46b4a254c6c705151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_2_arrow_empty_down_.png using Guid(85a96536cdeba7e46b4a254c6c705151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5221c5bcb131da710a138198ded398c') in 0.193277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.970193 seconds.
+  path: Assets/Clean Vector Icons/T_2_letter_open_.png
+  artifactKey: Guid(80ccf6426cf5d81439e0d2d0d5e3a670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_2_letter_open_.png using Guid(80ccf6426cf5d81439e0d2d0d5e3a670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de99f70d3c844f4d8755afdec58b83e8') in 0.029626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056662 seconds.
+  path: Assets/Clean Vector Icons/T_2_magnifier_+_al_.png
+  artifactKey: Guid(37b9b8c550b05f044945caab59ea5946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_2_magnifier_+_al_.png using Guid(37b9b8c550b05f044945caab59ea5946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e24cd3fbd7bedab79e8ab79f4f64b91') in 0.024749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Clean Vector Icons/T_2_scroll_open_.png
+  artifactKey: Guid(772f522a9c782904e9d220a7f8690c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_2_scroll_open_.png using Guid(772f522a9c782904e9d220a7f8690c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1f91154872d208a9577ae0f926d154') in 0.020855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.324771 seconds.
+  path: Assets/Clean Vector Icons/T_2_sword45_.png
+  artifactKey: Guid(43358b703766fee4ebe64c7fbd583376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_2_sword45_.png using Guid(43358b703766fee4ebe64c7fbd583376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fe713307cae5bd47f3a6f05ff6d7ec') in 0.026794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032337 seconds.
+  path: Assets/Clean Vector Icons/T_3_coins_.png
+  artifactKey: Guid(8ea3e46938e041f4a8abb8200dc90159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_3_coins_.png using Guid(8ea3e46938e041f4a8abb8200dc90159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a1bef5cc7162fb1d09730f568624ef') in 0.031796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Clean Vector Icons/T_3_magic_fire_.png
+  artifactKey: Guid(e32b8056f5f2eb741bec42f791c7f1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_3_magic_fire_.png using Guid(e32b8056f5f2eb741bec42f791c7f1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665c9d087bb8324e267b99b383b2a15f') in 0.025510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Clean Vector Icons/T_3_head_wiking_.png
+  artifactKey: Guid(ae7785f19cc193a4d9ab24c58d63be2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_3_head_wiking_.png using Guid(ae7785f19cc193a4d9ab24c58d63be2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6325bd3b244c5d88a5dcac41acc4694') in 0.024320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.229048 seconds.
+  path: Assets/Clean Vector Icons/T_3_magnifier_-_al_.png
+  artifactKey: Guid(a42e88e2e819b4a4cafce86eff236ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_3_magnifier_-_al_.png using Guid(a42e88e2e819b4a4cafce86eff236ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8cc0670bd4d3ed0b90b6a8fee2bf80') in 0.026261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Clean Vector Icons/T_3_sun_full_.png
+  artifactKey: Guid(afcc21aaa520e9743b7c6ddd2ee73409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_3_sun_full_.png using Guid(afcc21aaa520e9743b7c6ddd2ee73409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ef32fd18740f6dbcdbde26a72636b4') in 0.026733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Clean Vector Icons/T_4_=_.png
+  artifactKey: Guid(815a0f2c406c8284a98a80dff69ff8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_4_=_.png using Guid(815a0f2c406c8284a98a80dff69ff8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba543b4e70ba05054f97f09b3e154ff') in 0.026653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Clean Vector Icons/T_4_cursor_=_al_.png
+  artifactKey: Guid(8ccbbe0572b5f224ab0e0c4cc981c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_4_cursor_=_al_.png using Guid(8ccbbe0572b5f224ab0e0c4cc981c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9721482393e9191f13f6095beda7026d') in 0.021963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.281700 seconds.
+  path: Assets/Clean Vector Icons/T_4_frost_.png
+  artifactKey: Guid(c27014685dc9aee42800f1851d0d6e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_4_frost_.png using Guid(c27014685dc9aee42800f1851d0d6e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd47737966979294ff65a9eda5829e2') in 0.025704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Clean Vector Icons/T_4_shield_bezel_.png
+  artifactKey: Guid(570018e27fa24c34091ab0bbdcff209b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_4_shield_bezel_.png using Guid(570018e27fa24c34091ab0bbdcff209b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bc830db4660421c002e9c02e0a26b7') in 0.026424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Clean Vector Icons/T_4_magnifier_eye_al_.png
+  artifactKey: Guid(4c1d44382b9c700468f015c68363321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_4_magnifier_eye_al_.png using Guid(4c1d44382b9c700468f015c68363321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b22bf168251626362a5a3b5c1a0b86') in 0.023726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014382 seconds.
+  path: Assets/Clean Vector Icons/T_4_sword_saw_.png
+  artifactKey: Guid(d54a9728519c5d54bbe09aff5bd95284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_4_sword_saw_.png using Guid(d54a9728519c5d54bbe09aff5bd95284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e066b5ca969ee3f4133e79c66a147b5') in 0.024814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.227671 seconds.
+  path: Assets/Clean Vector Icons/T_5_column_sound2_.png
+  artifactKey: Guid(4487209fdda91154da619301adb9e6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_5_column_sound2_.png using Guid(4487209fdda91154da619301adb9e6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787fdba075c498119463be713d6bb07c') in 0.020706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Clean Vector Icons/T_5_drop_.png
+  artifactKey: Guid(6f649aea2852e3b46a8c4386355a2c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_5_drop_.png using Guid(6f649aea2852e3b46a8c4386355a2c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079c40aa968b14e320e3c9ddd7916c04') in 0.021889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004470 seconds.
+  path: Assets/Clean Vector Icons/T_5_head_rogure_.png
+  artifactKey: Guid(06823b49a1fcd154da0942a436195adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_5_head_rogure_.png using Guid(06823b49a1fcd154da0942a436195adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2474bf9b5f55c151a360cbdf694f68f1') in 0.026560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003249 seconds.
+  path: Assets/Clean Vector Icons/T_5_magnifier_eye_crossed_al_.png
+  artifactKey: Guid(bfa7019f88769204c904dbd91fb996f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_5_magnifier_eye_crossed_al_.png using Guid(bfa7019f88769204c904dbd91fb996f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2e748fc90fee7f6ac10cfa145269ff') in 0.023800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Clean Vector Icons/T_5_sun_empty_.png
+  artifactKey: Guid(a893af5c92e73d24bbea12aeb87df664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_5_sun_empty_.png using Guid(a893af5c92e73d24bbea12aeb87df664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e8b3b4c77add4bf1abf53059c4eb15') in 0.022183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.243165 seconds.
+  path: Assets/Clean Vector Icons/T_6_arrow_down_.png
+  artifactKey: Guid(515e1722bb0b86e4bb28c0aaade52e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_6_arrow_down_.png using Guid(515e1722bb0b86e4bb28c0aaade52e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49527a3616d16b3c427ccd261d40cc25') in 0.029490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Clean Vector Icons/T_6_cloud_.png
+  artifactKey: Guid(6de84b3b23aed7c44bbf4fa283ffb05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_6_cloud_.png using Guid(6de84b3b23aed7c44bbf4fa283ffb05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf3264cbeeff73ee08fa17033229563') in 0.026488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Clean Vector Icons/T_6_devide_.png
+  artifactKey: Guid(071a5d518c1fc4841838c36485123b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_6_devide_.png using Guid(071a5d518c1fc4841838c36485123b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7f5db05f049cc5a2f7d34bf75234e8') in 0.022847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.939465 seconds.
+  path: Assets/Clean Vector Icons/T_8_pause_.png
+  artifactKey: Guid(a1bda28f797f71c4db09f6a0d4af4759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_8_pause_.png using Guid(a1bda28f797f71c4db09f6a0d4af4759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51f246ebe36fb50374355ea96476718') in 0.025721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Clean Vector Icons/T_9_silhouette_+_.png
+  artifactKey: Guid(5639e7536f629884f907d06a418a7da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_9_silhouette_+_.png using Guid(5639e7536f629884f907d06a418a7da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b4d8a149c0bd725b1c09cc47533906') in 0.022347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Clean Vector Icons/T_10_silhouette_-_.png
+  artifactKey: Guid(d31cd83b42bb4ca4cabe4cddecc06c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_10_silhouette_-_.png using Guid(d31cd83b42bb4ca4cabe4cddecc06c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d2a6acf76c8dc5cc62e3b127740516') in 0.022000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Clean Vector Icons/T_14_wrench_.png
+  artifactKey: Guid(93af7b787a2d66e468add73213a37970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_14_wrench_.png using Guid(93af7b787a2d66e468add73213a37970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f16b2a899036aa7b6ad75ce434e5cd0') in 0.026336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Clean Vector Icons/T_13_arrow_down_.png
+  artifactKey: Guid(d724c83101b47ad43abf30523da96025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_13_arrow_down_.png using Guid(d724c83101b47ad43abf30523da96025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5229fd0545c36222ba03e8cdeccc4d') in 0.026042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Clean Vector Icons/T_13_campfire_.png
+  artifactKey: Guid(8c500d54ff99a5546a4409724f9b5579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_13_campfire_.png using Guid(8c500d54ff99a5546a4409724f9b5579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d25d265e49c67f292a54f7a0b949984') in 0.022521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Clean Vector Icons/T_8_silhouette_.png
+  artifactKey: Guid(72cdd1b1bb49d5f47bd5d2b3ecd3e851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_8_silhouette_.png using Guid(72cdd1b1bb49d5f47bd5d2b3ecd3e851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0a145379cf946e734f903fb04f7d5d') in 0.024877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Clean Vector Icons/T_10_rain_cloud_.png
+  artifactKey: Guid(bdbbd192cba22224396018366d28f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_10_rain_cloud_.png using Guid(bdbbd192cba22224396018366d28f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0996a1175036dbbf83c050f871b8aa51') in 0.024199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Clean Vector Icons/T_11_arrow_rounded_left_.png
+  artifactKey: Guid(c342a02c1ec59764ab8c5f2892c2928b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_11_arrow_rounded_left_.png using Guid(c342a02c1ec59764ab8c5f2892c2928b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c5b3ad10e81ed9a37554cb51fbb0a7') in 0.027626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Clean Vector Icons/T_14_key_.png
+  artifactKey: Guid(71c2aae20a433fc498da71248e974a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_14_key_.png using Guid(71c2aae20a433fc498da71248e974a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197d2e1d13256eb74266cfa9a3659b09') in 0.027063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Clean Vector Icons/T_11_star_.png
+  artifactKey: Guid(bef29bce6ed719f4a946d25ac181f8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_11_star_.png using Guid(bef29bce6ed719f4a946d25ac181f8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b69624570daa3ef5fea273632f777b') in 0.029293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Clean Vector Icons/T_9_eye_.png
+  artifactKey: Guid(77f8fc7d6918e844a8954d665ca1a6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_9_eye_.png using Guid(77f8fc7d6918e844a8954d665ca1a6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6774022d3ca2897bae6fbbb505192897') in 0.032997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Clean Vector Icons/T_11_pickaxe_.png
+  artifactKey: Guid(0138ff996cf7410479c3dfffa5472ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_11_pickaxe_.png using Guid(0138ff996cf7410479c3dfffa5472ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6600190d73eed2693c9aea42ae85b405') in 0.033648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Clean Vector Icons/T_12_tent_.png
+  artifactKey: Guid(bf693fa78bbee3c4088f8993ac382f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_12_tent_.png using Guid(bf693fa78bbee3c4088f8993ac382f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52907e9e9d6c42a4f5e9161fdf52e666') in 0.034777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Clean Vector Icons/T_13_points_ver_.png
+  artifactKey: Guid(4ddc3c228fdfb984eb497be43e4b91b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_13_points_ver_.png using Guid(4ddc3c228fdfb984eb497be43e4b91b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266a934d30e9d21bb22151ca09e6a6dd') in 0.029424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Clean Vector Icons/T_10_!_.png
+  artifactKey: Guid(3e382c1295a11054dacdc58d5933d206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_10_!_.png using Guid(3e382c1295a11054dacdc58d5933d206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9104fe5bbfb7d9e95119e38801a2254e') in 0.028940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.040100 seconds.
+  path: Assets/Clean Vector Icons/T_6_mace_.png
+  artifactKey: Guid(b9d3d7dbf5c4f114fbe9d15c62c0f9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_6_mace_.png using Guid(b9d3d7dbf5c4f114fbe9d15c62c0f9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ae8453dbeac17c11af86aa2e8fd8c5') in 0.033420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Clean Vector Icons/T_7_cloud&sun_.png
+  artifactKey: Guid(f0660b05fbd6535418bc2b4696033130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_7_cloud&sun_.png using Guid(f0660b05fbd6535418bc2b4696033130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2def67a8c346f7922382f85e192710') in 0.030981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Clean Vector Icons/T_7_cursor_question_al_.png
+  artifactKey: Guid(0781e066f75aaa94095583eafdec5d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clean Vector Icons/T_7_cursor_question_al_.png using Guid(0781e066f75aaa94095583eafdec5d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6529f5a347274f5865dd23ac78ab11fc') in 0.027139 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
