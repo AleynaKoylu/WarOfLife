@@ -1,0 +1,876 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.33f1 (ee5a2aa03ab2) revision 15620650'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 7930 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/aleyn/Desktop/Games/WarOfLife/WarOfLife
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58336
+Successfully changed project path to: C:/Users/aleyn/Desktop/Games/WarOfLife/WarOfLife
+C:/Users/aleyn/Desktop/Games/WarOfLife/WarOfLife
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16972] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 3640342963 [EditorId] 3640342963 [Version] 1048832 [Id] WindowsEditor(7,Aleyna) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16972] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 3640342963 [EditorId] 3640342963 [Version] 1048832 [Id] WindowsEditor(7,Aleyna) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 60.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aleyn/Desktop/Games/WarOfLife/WarOfLife/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a5)
+    Vendor:   NVIDIA
+    VRAM:     3991 MB
+    Driver:   31.0.15.1720
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008281 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 328 ms
+Refreshing native plugins compatible for Editor in 73.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.069 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1069ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (672ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (433ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1444ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1195ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (690ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (563ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (46.7 KB). Loaded Objects now: 3536.
+Memory consumption went from 112.7 MB to 112.6 MB.
+Total: 5.234200 ms (FindLiveObjects: 0.306700 ms CreateObjectMapping: 0.076300 ms MarkObjects: 4.744100 ms  DeleteObjects: 0.105400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31996.152639 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(5be10b09a7617c64eb575356c5f20cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts using Guid(5be10b09a7617c64eb575356c5f20cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40926464138cce82f370bf22effdbc8e') in 0.013284 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.394141 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(6cdcc0c2ffccb074e889951d8ba98334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/MainMenu.cs using Guid(6cdcc0c2ffccb074e889951d8ba98334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72f8a46f26dd7e492588f9e42b68bc8') in 0.034187 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007029 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1436ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1132ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (674ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (554ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3540.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 2.708600 ms (FindLiveObjects: 0.275000 ms CreateObjectMapping: 0.092700 ms MarkObjects: 2.299700 ms  DeleteObjects: 0.039500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010494 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.847 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1848ms)
+		BeginReloadAssembly (327ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1395ms)
+			LoadAssemblies (266ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (721ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (583ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3544.
+Memory consumption went from 114.3 MB to 114.2 MB.
+Total: 5.619800 ms (FindLiveObjects: 0.964700 ms CreateObjectMapping: 0.292200 ms MarkObjects: 4.298300 ms  DeleteObjects: 0.061100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1103.241971 seconds.
+  path: Assets/UI button pack 3/Blank button
+  artifactKey: Guid(56f67cdf03678e0428ccb673c1a07bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Blank button using Guid(56f67cdf03678e0428ccb673c1a07bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a1afef1e73c933f38677af700cbda3') in 0.131763 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012900 seconds.
+  path: Assets/UI button pack 3/Blank button/1024-512.png
+  artifactKey: Guid(0b0ac07dac7ff654482cc73c30ed2759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Blank button/1024-512.png using Guid(0b0ac07dac7ff654482cc73c30ed2759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b81770c86831987ff5c1acdba502fd') in 0.253887 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UI button pack 3/Blank button/Edge-right.png
+  artifactKey: Guid(7e50cf403815a0043a68e371fc293aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Blank button/Edge-right.png using Guid(7e50cf403815a0043a68e371fc293aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2861fcf269a0727f6339284d95f28f98') in 0.039079 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UI button pack 3/Blank button/edge-middle.png
+  artifactKey: Guid(45da88fd649efc34e8b76418569fdff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Blank button/edge-middle.png using Guid(45da88fd649efc34e8b76418569fdff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56f03b870215ee78fb8ce473b9d9a27') in 0.030641 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UI button pack 3/Blank button/RECTANGLE-EPONDED.png
+  artifactKey: Guid(857e84f23ee993b40a79c0b6e76351dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Blank button/RECTANGLE-EPONDED.png using Guid(857e84f23ee993b40a79c0b6e76351dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9edeb018124fde1b40ff32d7a8333f0') in 0.031927 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UI button pack 3/Blank button/rounded-square.png
+  artifactKey: Guid(fb8dddc6f9679bc43bced69df04f2025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Blank button/rounded-square.png using Guid(fb8dddc6f9679bc43bced69df04f2025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839de5d087356477308c6c43ffaacd53') in 0.038793 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UI button pack 3/Blank button/CIRCLE.png
+  artifactKey: Guid(dfb05725dec54ba4c9134f977cd8c59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Blank button/CIRCLE.png using Guid(dfb05725dec54ba4c9134f977cd8c59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365eead0cbe8e65f355cff54342665cd') in 0.032875 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI button pack 3/Blank button/square-round-1024-256'.png
+  artifactKey: Guid(9b0bc688f5f10bc42ac1334f629544ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Blank button/square-round-1024-256'.png using Guid(9b0bc688f5f10bc42ac1334f629544ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcbf0db75dd4d218a9a66f94dcf1ae6') in 0.028939 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.730233 seconds.
+  path: Assets/UI button pack 3/Button round color 1/1.prefab
+  artifactKey: Guid(8202b438aa80c8a4ca771ee7731e175c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/1.prefab using Guid(8202b438aa80c8a4ca771ee7731e175c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48f62cefb3779c0da36bf70d2f3f6ac') in 0.024344 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI button pack 3/Button round color 1/Achive.prefab
+  artifactKey: Guid(eb36c082676e13f4eb5eaa547ff42c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/Achive.prefab using Guid(eb36c082676e13f4eb5eaa547ff42c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275561828253fcda26d48f2099b12453') in 0.006394 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UI button pack 3/Button round color 1/camera.prefab
+  artifactKey: Guid(5a789a4e984c1e44280a51ce268a125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/camera.prefab using Guid(5a789a4e984c1e44280a51ce268a125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9ac9e6155124554e24663a3ac3b0fe') in 0.006097 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UI button pack 3/Button round color 1/chat.prefab
+  artifactKey: Guid(c77e17b0766fa9f49b1a3ccc6d044c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/chat.prefab using Guid(c77e17b0766fa9f49b1a3ccc6d044c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61eb923b2452eee3ff6356ef8dbb055d') in 0.007452 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UI button pack 3/Button round color 1/5.prefab
+  artifactKey: Guid(18d2736356ab24f4a98356d7ab8008fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/5.prefab using Guid(18d2736356ab24f4a98356d7ab8008fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58afd01232a4e17487cca55b87785d83') in 0.007231 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UI button pack 3/Button round color 1/4.prefab
+  artifactKey: Guid(a7c6010932bb2db45bf9af55f99b0702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/4.prefab using Guid(a7c6010932bb2db45bf9af55f99b0702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912e9d32dcf2b43f6b315a69501af381') in 0.005653 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI button pack 3/Button round color 1/back.prefab
+  artifactKey: Guid(af39fb7fe556b7f44b80231807fe3c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/back.prefab using Guid(af39fb7fe556b7f44b80231807fe3c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65fa9ba3b3a01e26b2848f299e08cf6') in 0.008202 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.733068 seconds.
+  path: Assets/UI button pack 3/Button round color 1/coins.prefab
+  artifactKey: Guid(b5e66330fa638e646b48bcee451e5cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/coins.prefab using Guid(b5e66330fa638e646b48bcee451e5cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee39b7da575e2e63d5e749593a3ba60') in 0.006752 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UI button pack 3/Button round color 1/copy.prefab
+  artifactKey: Guid(5ee8f36354960304d81c266837ed792d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/copy.prefab using Guid(5ee8f36354960304d81c266837ed792d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aba064474e8811cf7e23b7d6780f0de') in 0.005113 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.130766 seconds.
+  path: Assets/UI button pack 3/Button round color 1/Dollar.prefab
+  artifactKey: Guid(8852e9b53d2e1d4478eb59a4728ca90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/Dollar.prefab using Guid(8852e9b53d2e1d4478eb59a4728ca90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac6ad96f160c6a41d8a0e8d0f45f338') in 0.007133 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.085304 seconds.
+  path: Assets/UI button pack 3/Button round color 1/empty-heart.prefab
+  artifactKey: Guid(9dd7670bdf2082448a4960c5b11c2612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/empty-heart.prefab using Guid(9dd7670bdf2082448a4960c5b11c2612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d5b2160fb221293684f4fa6acb864e') in 0.008042 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/UI button pack 3/Button round color 1/forward.prefab
+  artifactKey: Guid(adfd32c3452dbee4fa56c7e8eb029607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/forward.prefab using Guid(adfd32c3452dbee4fa56c7e8eb029607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403d84f87f94c7fd1e8b545212babe15') in 0.006672 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 26.045917 seconds.
+  path: Assets/UI button pack 3/Button round color 1/full-screen.prefab
+  artifactKey: Guid(100444cabd30fc04aa40a614b984b91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/full-screen.prefab using Guid(100444cabd30fc04aa40a614b984b91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e345cb9f608650bbb53aee52d4c332ab') in 0.007984 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.436611 seconds.
+  path: Assets/UI button pack 3/Button round color 1/info.prefab
+  artifactKey: Guid(95c717fd0c7defe41b28eb7d1081594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/info.prefab using Guid(95c717fd0c7defe41b28eb7d1081594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f823c55d61ddb09b9601b557633f87e') in 0.007917 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI button pack 3/Button round color 1/left.prefab
+  artifactKey: Guid(631d5f35dcb778d45b34eac1a78b9ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/left.prefab using Guid(631d5f35dcb778d45b34eac1a78b9ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1e01cde071dc62bb9b702a226ac322') in 0.005307 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.024886 seconds.
+  path: Assets/UI button pack 3/Button round color 1/Low.prefab
+  artifactKey: Guid(50ad1c42b5ab1b54eaf53a8d42f999bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/Low.prefab using Guid(50ad1c42b5ab1b54eaf53a8d42f999bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27dd19b2f362d146974ecd875d0a7100') in 0.006163 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.021795 seconds.
+  path: Assets/UI button pack 3/Button round color 1/minus.prefab
+  artifactKey: Guid(e4b26a7114319d9469953aadbd8af338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/minus.prefab using Guid(e4b26a7114319d9469953aadbd8af338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344dad19c755bedd1a5d5a6e9309bc53') in 0.006699 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/UI button pack 3/Button round color 1/Music-off.prefab
+  artifactKey: Guid(6fe1443a7ddabae4c9adec3963ab8576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/Music-off.prefab using Guid(6fe1443a7ddabae4c9adec3963ab8576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c051c4fea0b035f2e4bd9cac512a8fa') in 0.006433 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.297683 seconds.
+  path: Assets/UI button pack 3/Button round color 1/no-adds.prefab
+  artifactKey: Guid(71de167a55b8d7b4cb064d8b15159d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/no-adds.prefab using Guid(71de167a55b8d7b4cb064d8b15159d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9454db08c203f32b78d783313c84419') in 0.007384 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.028409 seconds.
+  path: Assets/UI button pack 3/Button round color 1/Pause.prefab
+  artifactKey: Guid(d3f159cbb99c6a54297d303540a6718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/Pause.prefab using Guid(d3f159cbb99c6a54297d303540a6718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbd127b11d372acd2bdad9d70538f9c') in 0.006710 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.028710 seconds.
+  path: Assets/UI button pack 3/Button round color 1/Premium.prefab
+  artifactKey: Guid(489f32e64d3edf442bc03423f0b86e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/Premium.prefab using Guid(489f32e64d3edf442bc03423f0b86e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eab5899def5b8e0105f06f7b8545260') in 0.006638 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI button pack 3/Button round color 1/redeem.prefab
+  artifactKey: Guid(fe68e73dd62a3d944a75fa9c210bc73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/redeem.prefab using Guid(fe68e73dd62a3d944a75fa9c210bc73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007d7d5d911eb16fa87130b415dd1ce5') in 0.005819 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.258563 seconds.
+  path: Assets/UI button pack 3/Button round color 1/rewards.prefab
+  artifactKey: Guid(f394fed6c7dc3f3498a6aaefec7dc31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/rewards.prefab using Guid(f394fed6c7dc3f3498a6aaefec7dc31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26077f44ca636a74f1d25fd279d7f48') in 0.010823 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.012694 seconds.
+  path: Assets/UI button pack 3/Button round color 1/settings.prefab
+  artifactKey: Guid(a3ac0451de4db154cb0a8596e65f4e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/settings.prefab using Guid(a3ac0451de4db154cb0a8596e65f4e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b883d96d2e55bd0d8ffcbb18ca58e2e') in 0.007608 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.233279 seconds.
+  path: Assets/UI button pack 3/Button round color 1/sound-off.prefab
+  artifactKey: Guid(1e44220ea22ace04789335739c430a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/sound-off.prefab using Guid(1e44220ea22ace04789335739c430a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ca29bc47ed8334a80270cb41fd006b') in 0.008676 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.030780 seconds.
+  path: Assets/UI button pack 3/Button round color 1/tick.prefab
+  artifactKey: Guid(ff83a1d5aa5c54441a54e9173e3fb765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/tick.prefab using Guid(ff83a1d5aa5c54441a54e9173e3fb765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41207bd9567007a145c8ee651a4139db') in 0.006724 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.034605 seconds.
+  path: Assets/UI button pack 3/Button round color 1/zoom-out.prefab
+  artifactKey: Guid(c2e67de5a9cb75e4e898887cdd0f016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round color 1/zoom-out.prefab using Guid(c2e67de5a9cb75e4e898887cdd0f016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90f373c8a1ef40c4e0749d2c3f2fac7') in 0.005567 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 10.946128 seconds.
+  path: Assets/UI button pack 3/Button round corner color 15/1.prefab
+  artifactKey: Guid(79c4f05d3d887b24ea14ae76b324416c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 15/1.prefab using Guid(79c4f05d3d887b24ea14ae76b324416c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5d8fb5a65f573dd75ec93d6091e36b') in 0.005707 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI button pack 3/Button round corner color 15/5.prefab
+  artifactKey: Guid(7cf64c4ea60496844a6b07fb363f439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 15/5.prefab using Guid(7cf64c4ea60496844a6b07fb363f439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5566d85279159226613371e3c1bdea') in 0.004815 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI button pack 3/Button round corner color 15/back.prefab
+  artifactKey: Guid(ef8290cd3c651d5458acd03e9c061e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 15/back.prefab using Guid(ef8290cd3c651d5458acd03e9c061e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146709a6ddc319d378bd10e5bc315229') in 0.005642 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI button pack 3/Button round corner color 15/backward.prefab
+  artifactKey: Guid(20c8fff2eba41654688db1a9843f6ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 15/backward.prefab using Guid(20c8fff2eba41654688db1a9843f6ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902608c08ca7cd8d6f864254a36b3686') in 0.005655 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI button pack 3/Button round corner color 15/4.prefab
+  artifactKey: Guid(ee69bebe1fe430149bf317abfda467a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 15/4.prefab using Guid(ee69bebe1fe430149bf317abfda467a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8932207bbdd8ddca09ed7ff51734c2') in 0.005655 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.908795 seconds.
+  path: Assets/UI button pack 3/Button round corner color 14/1.prefab
+  artifactKey: Guid(0d37b442ff5910f4e8f031d7567e831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 14/1.prefab using Guid(0d37b442ff5910f4e8f031d7567e831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5855747f238401e82e28092d44be584e') in 0.005960 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UI button pack 3/Button round corner color 14/chat.prefab
+  artifactKey: Guid(6ba4ada645c4b8c4794e79f97c25456d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 14/chat.prefab using Guid(6ba4ada645c4b8c4794e79f97c25456d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8415e5f838eec0420435a1189a698e62') in 0.005097 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI button pack 3/Button round corner color 14/8.prefab
+  artifactKey: Guid(b79dcb26e197a4244ab8b3cf040e6298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 14/8.prefab using Guid(b79dcb26e197a4244ab8b3cf040e6298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18c5586abd7257c78cefd09408f1c53') in 0.004871 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UI button pack 3/Button round corner color 14/Add-people.prefab
+  artifactKey: Guid(73c749d599630bf48baf61c9cd1f4e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 14/Add-people.prefab using Guid(73c749d599630bf48baf61c9cd1f4e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15a97762ee87ade7894880b54e6d66e') in 0.005221 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI button pack 3/Button round corner color 14/cart.prefab
+  artifactKey: Guid(855e1647ef99bf544be86a0d331865c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 14/cart.prefab using Guid(855e1647ef99bf544be86a0d331865c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820ec920b2eeda2bf135d22e8b38d843') in 0.005100 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/UI button pack 3/Button round corner color 14/Achive.prefab
+  artifactKey: Guid(afdeaaf34ad80a4499535bdf01608a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 14/Achive.prefab using Guid(afdeaaf34ad80a4499535bdf01608a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571ff040edd7854221c5d62a1dd40f19') in 0.004420 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.804437 seconds.
+  path: Assets/UI button pack 3/Button round corner color 13/1.prefab
+  artifactKey: Guid(4279a4295a9f7d545974b3270ea348d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 13/1.prefab using Guid(4279a4295a9f7d545974b3270ea348d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38483b1fcb7f8ee168cc72e43f6208e7') in 0.006205 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI button pack 3/Button round corner color 13/7.prefab
+  artifactKey: Guid(3d9b90bf4c1c5c24880d1e66c5a4d4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 13/7.prefab using Guid(3d9b90bf4c1c5c24880d1e66c5a4d4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a107c198522a0e0782c074a6de559f') in 0.004201 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI button pack 3/Button round corner color 13/9.prefab
+  artifactKey: Guid(b34402ed2610ec6488e308090c1e8430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 13/9.prefab using Guid(b34402ed2610ec6488e308090c1e8430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436c114c838c3bb3e47f0035d9fce3dd') in 0.004762 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI button pack 3/Button round corner color 13/Add-people.prefab
+  artifactKey: Guid(5fe34d37c19c40442946dd758cedda2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 13/Add-people.prefab using Guid(5fe34d37c19c40442946dd758cedda2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327e486dc4dcce810617394a7fa041f6') in 0.004610 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI button pack 3/Button round corner color 13/chat.prefab
+  artifactKey: Guid(5afd62f9086761e4095fd9b1b5974839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 13/chat.prefab using Guid(5afd62f9086761e4095fd9b1b5974839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6efbb77d06bde93f74a65735a9507da') in 0.005162 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UI button pack 3/Button round corner color 13/8.prefab
+  artifactKey: Guid(34bc3898f69dff14cb4684c2d313f61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 13/8.prefab using Guid(34bc3898f69dff14cb4684c2d313f61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39e2b161b454691df511fff689faacb') in 0.005936 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.612734 seconds.
+  path: Assets/UI button pack 3/Button round corner color 12/1.prefab
+  artifactKey: Guid(176b7dfac9e93a64f88d9f12663300b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 12/1.prefab using Guid(176b7dfac9e93a64f88d9f12663300b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac0d3d7a762e1346b3c06408f0ec879') in 0.006324 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI button pack 3/Button round corner color 12/8.prefab
+  artifactKey: Guid(e4ee28c9def480c4695f6003927e996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 12/8.prefab using Guid(e4ee28c9def480c4695f6003927e996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc412d593a980257ef57f4a959e79b2') in 0.004405 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI button pack 3/Button round corner color 12/backward.prefab
+  artifactKey: Guid(20fcd9589c1f4cb4cab88eed0978e818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 12/backward.prefab using Guid(20fcd9589c1f4cb4cab88eed0978e818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a25a8c73098188806b51a32aca79941') in 0.004986 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI button pack 3/Button round corner color 12/cart.prefab
+  artifactKey: Guid(d21f469a7d6adf24cb35057deb302cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 12/cart.prefab using Guid(d21f469a7d6adf24cb35057deb302cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc52b9a83b57915d0591775e1b8eb9f') in 0.005125 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UI button pack 3/Button round corner color 12/Add-people.prefab
+  artifactKey: Guid(375b7013810ca1849a9d7e2bf59c171d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 12/Add-people.prefab using Guid(375b7013810ca1849a9d7e2bf59c171d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e01c3231aa9d2726f1de32df499470b') in 0.005755 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.580940 seconds.
+  path: Assets/UI button pack 3/Button round corner color 11/1.prefab
+  artifactKey: Guid(642e74ed41397e244a49d286054c8b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 11/1.prefab using Guid(642e74ed41397e244a49d286054c8b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29258bbe17a1f7374f188e347a1be41') in 0.005180 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI button pack 3/Button round corner color 11/chat.prefab
+  artifactKey: Guid(27060ffef44dab8489c3d0391c66c9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 11/chat.prefab using Guid(27060ffef44dab8489c3d0391c66c9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189041beeeef05987423adc50e9a17ff') in 0.004868 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UI button pack 3/Button round corner color 11/8.prefab
+  artifactKey: Guid(04906e4180075364b94b24592d4f633f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 11/8.prefab using Guid(04906e4180075364b94b24592d4f633f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed5fcc658cd9a8749f473e7bdffe3d5') in 0.004879 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UI button pack 3/Button round corner color 11/Add-people.prefab
+  artifactKey: Guid(3e5f58ce93b7fad45a6bfa8ec3823cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 11/Add-people.prefab using Guid(3e5f58ce93b7fad45a6bfa8ec3823cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781ec6f850cc8b5bf2c259650949add2') in 0.006204 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/UI button pack 3/Button round corner color 11/7.prefab
+  artifactKey: Guid(f7c76baadeb7c544a8f799cec57d9ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI button pack 3/Button round corner color 11/7.prefab using Guid(f7c76baadeb7c544a8f799cec57d9ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830c4b3356776f0cf682f3ff17290e1d') in 0.006079 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.652 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1654ms)
+		BeginReloadAssembly (252ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1306ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (736ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (596ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3559.
+Memory consumption went from 114.4 MB to 114.4 MB.
+Total: 4.316800 ms (FindLiveObjects: 0.314200 ms CreateObjectMapping: 0.101200 ms MarkObjects: 3.858200 ms  DeleteObjects: 0.041600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
